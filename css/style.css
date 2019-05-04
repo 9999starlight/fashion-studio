@@ -331,6 +331,13 @@ h2 {
         box-shadow: inset 6px 6px 20px #272222;
     }
 }
+
+@media(min-width: 992px){
+  .kontaktmain {
+      height: 85vh;
+  }
+}
+
 @supports (-ms-ime-align:auto) {
     nav a:hover { 
         background: rgba(187, 135, 218, 0.123) 
