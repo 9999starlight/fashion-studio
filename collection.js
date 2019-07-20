@@ -3,7 +3,7 @@ function productSelection(products) {
     document.querySelector('#products').classList.remove('hide');
     document.querySelector('#products').classList.add('flexCenter');
     let currentProduct = 0;
-    fetch('./../products.json')
+    fetch('products.json')
         .then(res => res.json())
         .then(data => {
             const productArr = data.filter(d => d.type === products);
