@@ -1,0 +1,149 @@
+[
+  {
+   "type": "skirts",
+   "name": "Galaxy skirt",
+   "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+   "size": "M, L",
+   "photo": "<img src='image/galaxy-skirt.jpg' alt='galaxy skirt' />"
+  },
+  {
+    "type": "skirts",
+    "name": "Star Trek",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus",
+    "size": "S, M, L",
+    "photo": "<img src='image/skirt2.jpg' alt='star skirt' />"
+   },
+   {
+    "type": "skirts",
+    "name": "Navy",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "L, XL",
+    "photo": "<img src='thumbnails/navy-skirt.jpg' alt='navy skirt' />"
+   },
+   {
+    "type": "skirts",
+    "name": "Tartan Skirt",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "S, M, L, XL",
+    "photo": "<img src='thumbnails/img06.jpg' alt='tartan skirt' />"
+   },
+   {
+    "type": "dresses",
+    "name": "Gold Dress",
+    "description": "Unde, accusamus doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse, commodi quae",
+    "size": "S, M",
+    "photo": "<img src='image/dress-gold.jpg' alt='gold dress' />"
+   },
+   {
+    "type": "dresses",
+    "name": "Stripe dress",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "M, L",
+    "photo": "<img src='thumbnails/img12.jpg' alt='stripe dress' />"
+   },
+   {
+    "type": "dresses",
+    "name": "White lace dress",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "S, L",
+    "photo": "<img src='thumbnails/img03.jpg' alt='white lace dress' />"
+   },
+   {
+    "type": "dresses",
+    "name": "Yellow wool dress",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "S, M, L, XL",
+    "photo": "<img src='thumbnails/img07.jpg' alt='yellow wool dress' />"
+   },
+   {
+    "type": "tops",
+    "name": "Black top",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "S, M, L",
+    "photo": "<img src='image/black-top.jpg' alt='black top' />"
+   },
+   {
+    "type": "tops",
+    "name": "White lace top",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "M, L",
+    "photo": "<img src='thumbnails/img09.jpg' alt='white lace top' />"
+   },
+   {
+    "type": "tops",
+    "name": "White wool top",
+    "description": "Unde, accusamus doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse, commodi quae",
+    "size": "L, XL",
+    "photo": "<img src='thumbnails/img13.jpg' alt='white wool top' />"
+   },
+   {
+    "type": "accessories",
+    "name": "Yellow-earings",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "N/A",
+    "photo": "<img src='image/yellow-earings.jpg' alt='yellow earings' />"
+   },
+   {
+    "type": "accessories",
+    "name": "Butterfly necklace",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus",
+    "size": "N/A",
+    "photo": "<img src='image/necklace.jpg' alt='butterfly necklace' />"
+   },
+   {
+    "type": "accessories",
+    "name": "Sparkling handbag",
+    "description": "Unde, accusamus doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse, commodi quae",
+    "size": "N/A",
+    "photo": "<img src='image/handbag.jpg' alt='sparkling handbag' />"
+   },
+   {
+    "type": "other",
+    "name": "Stripe jacket",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus",
+    "size": "M, L",
+    "photo": "<img src='thumbnails/img01.jpg' alt='stripe jacket' />"
+   },
+   {
+    "type": "other",
+    "name": "Fur jacket",
+    "description": "Unde, accusamus doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse, commodi quae",
+    "size": "M",
+    "photo": "<img src='image/fur.jpg' alt='fur jacket' />"
+   },
+   {
+    "type": "other",
+    "name": "Gray coat",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "M, L, XL",
+    "photo": "<img src='thumbnails/img05.jpg' alt='gray coat' />"
+   },
+   {
+    "type": "overalls",
+    "name": "Black Overall",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "XL, XXL",
+    "photo": "<img src='image/black-overall.jpg' alt='black overall' />"
+   },
+   {
+    "type": "overalls",
+    "name": "Brown overall",
+    "description": "Unde, accusamus doloremque sint repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse, commodi quae",
+    "size": "S, M, L, XL",
+    "photo": "<img src='image/brown-overall.jpg' alt='black overall' />"
+   },
+   {
+    "type": "overalls",
+    "name": "Beach overall",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit unde, accusam doloremque sint repellendus",
+    "size": "M, L",
+    "photo": "<img src='image/summer-overall.jpg' alt='beach overall' />"
+   },
+   {
+    "type": "overalls",
+    "name": "White overall",
+    "description": "Repellendus necessitatibus provident molestias tenetur laboriosam magnam eveniet quas maiores esse",
+    "size": "S, L",
+    "photo": "<img src='image/white-overall.jpg' alt='white overall' />"
+   }
+]

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Fashion Studio</title>
+  </head>
+
+  <body>
+    <div class="container flex">
+      <header class = "flex">
+        <div class="filter hide fullWidth absolute"></div>
+        <div class="headerTitle">
+          <h2 class = "yatra">fashion studio</h2>
+          <h1 class = "kaushan">Galliana Gotham</h1>
+        </div>
+        <div class="menu absolute">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <nav class = "fullWidth absolute">
+          <ul class="hide fullWidth">
+            <li class = "fullWidth"><a href="index.html">HOME</a></li>
+            <li class = "fullWidth"><a href="index.html#collection">COLLECTION</a></li>
+            <li class = "fullWidth"><a href="biography.html">BIOGRAPHY</a></li>
+            <li class = "fullWidth"><a href="gallery.html">GALLERY</a></li>
+            <li class = "fullWidth"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class = "flexCenter">
+        <div id="collection" class="collection-header">
+          <a href="index.html#collection">
+            <h2 class = "yatra">Collection</h2>
+          </a>
+        </div>
+        <div class="home flexCenter wrapper">
+          <a href="index.html#products"  id = "dresses">
+            <div class="image-link">
+              <img src="thumbnails/img08.jpg" alt="link-dresses" class = "fullWidth"/>
+              <div class="centered absolute kaushan">Dresses</div>
+            </div>
+          </a>
+          <a href="index.html#products" id = "tops">
+            <div class="image-link">
+              <img src="thumbnails/img01.jpg" alt="link-tops" class = "fullWidth"/>
+              <div class="centered absolute kaushan">Tops</div>
+            </div>
+          </a>
+          <a href="index.html#products">
+            <div class="image-link" id = "skirts">
+              <img src="thumbnails/img06.jpg" alt="link-skirts" class = "fullWidth"/>
+              <div class="centered absolute kaushan">Skirts</div>
+            </div>
+          </a>
+          <a href="index.html#products" id = "overalls">
+            <div class="image-link">
+              <img src="image/black-overall.jpg" alt="white overall" class = "fullWidth"/>
+              <div class="centered absolute kaushan">Overalls</div>
+            </div>
+          </a>
+          <a href="index.html#products" id = "accessories">
+            <div class="image-link">
+              <img src="thumbnails/accessories1.jpg" alt="link-accessories" class = "fullWidth"/>
+              <div class="centered absolute kaushan">Accessories</div>
+            </div>
+          </a>
+          <a href="index.html#products" id = "other">
+            <div class="image-link">
+              <img src="image/window-shopping.jpg" alt="link-other" class = "fullWidth"/>
+              <div class="centered absolute kaushan">Other</div>
+            </div>
+          </a>
+        </div>
+      </main>
+      <div class="collection hide" id = "products">
+        <div class="collect flexCenter">
+            <h1 class = "kaushan">Galiana Gotham</h1>
+            <h2 class = "yatra">Collection</h2>
+            <h2 id = "productType" class = "yatra underline"></h2>
+          </div>
+      <div class="product flexCenter fullWidth">
+      <div class = "slide flexCenter">
+      </div>
+      <div class="description wrapper flexCenter">
+        <div class="arrows flexCenter wrapper fullWidth">
+        <i class="fas fa-angle-double-left" id = "btnPrevious"></i>
+        <i class="fas fa-angle-double-right" id = "btnNext"></i >
+        </div>
+        <h3 class = "descriptionHeading" id = "productName"></h3>
+        <h5 class = "descriptionHeading" id = "productDescription"></h5>
+        <h4 class = "descriptionHeading" id = "productSize"></h4>
+      </div>
+    </div>
+    </div>
+      <footer class = "flex fullWidth">
+        <p>
+          <span><i class="far fa-address-card"></i></span> Pop Lukina 11 Belgrade
+        </p>
+        <p>
+          <span><i class="fas fa-phone"></i></span> +381611546521
+        </p>
+        <p>
+          <span><i class="far fa-envelope"></i></span>
+          gallianagothamfashion@gmail.com
+        </p>
+      </footer>
+    </div>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/collection.js"></script>
+  </body>
+</html>
