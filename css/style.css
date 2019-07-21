@@ -24,8 +24,7 @@ a {
   color: #fff;
 }
 
-.flex,
-.show {
+.flex {
   display: flex;
 }
 
@@ -229,7 +228,8 @@ main {
 
 a img,
 section h2,
-.descriptionHeading {
+.descriptionHeading,
+.arrows {
   margin-bottom: 1.5em;
 }
 
@@ -451,7 +451,7 @@ article p {
 
 .arrows i {
   padding: 0.4em;
-  color: #d036c9;
+  color: #d160b4db;
   font-size: 2em;
   margin: 0 1em;
 }
@@ -481,6 +481,7 @@ article p {
 }
 
 @media (min-width: 800px) {
+
   header,
   .collection {
     min-height: 80vh;
@@ -659,11 +660,6 @@ article p {
 
   .slide {
     width: 50%;
-  }
-
-  .slide img {
-    height: 500px;
-    width: auto;
   }
 
   .description {

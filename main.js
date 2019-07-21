@@ -7,15 +7,15 @@ function toggleMenu() {
     const lines = document.querySelectorAll('.line');
     if (!displayMenu) {
         links.classList.remove('hide');
-        links.classList.add('show');
+        links.classList.add('flex');
         filter.classList.remove('hide');
-        filter.classList.add('show');
+        filter.classList.add('flex');
         lines.forEach(l => l.classList.add('transformMenu'));
         displayMenu = true;
     } else {
-        links.classList.remove('show');
+        links.classList.remove('flex');
         links.classList.add('hide');
-        filter.classList.remove('show');
+        filter.classList.remove('flex');
         filter.classList.add('hide');
         lines.forEach(l => l.classList.remove('transformMenu'));
         displayMenu = false;
